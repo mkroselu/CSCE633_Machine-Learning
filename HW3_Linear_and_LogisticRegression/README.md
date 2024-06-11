@@ -121,6 +121,7 @@ linear = LinearRegression()
 
 # Train the model on the training set
 linear.fit(X_train, y_train)
+```
 
 Make predictions with test set
 
