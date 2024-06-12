@@ -387,39 +387,6 @@ for i, depth in enumerate(depths):
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    ValueError                                Traceback (most recent call last)
-
-    Cell In[17], line 9
-          7 for i, depth in enumerate(depths):
-          8     tree = ClassificationTree(0, depth)
-    ----> 9     accuracy = tree.fit(X, y)
-         10     y_pred = tree.predict(X_test)
-         11     accuracies[i] = classification_accuracy(y_test, y_pred)
-    
-
-    Cell In[16], line 74, in ClassificationTree.fit(self, X, y)
-         73 def fit(self, X, y):
-    ---> 74     self.root = self.build_tree(X, y, 0)
-    
-
-    Cell In[16], line 79, in ClassificationTree.build_tree(self, X, y, depth)
-         76 def build_tree(self, X, y, depth):
-         77     # Stopping criterion: stop if max depth is reached or if all samples have the same class
-         78     if depth == self.max_depth or len(set(y)) == 1:
-    ---> 79         class_label = np.bincount(y).argmax()
-         80         return Node(is_leaf=True, class_label=class_label)
-         82     # Get the best split
-    
-
-    File <__array_function__ internals>:180, in bincount(*args, **kwargs)
-    
-
-    ValueError: object too deep for desired array
-
-
-
 ```python
 plt.plot(depths, accuracies)
 plt.title('Classification Accuracy vs. Depth')
