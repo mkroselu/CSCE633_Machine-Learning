@@ -46,19 +46,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -225,20 +212,7 @@ features.head()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
+<div> 
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -644,22 +618,6 @@ abs_errors = []
 abs_errors.append(rf_regression(X,y,2))
 abs_errors
 ```
-
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    
-
-
-
-
     [7.640619528619529]
 
 
@@ -677,21 +635,6 @@ y = features[["StateAnxiety"]]
 abs_errors.append(rf_regression(X,y,2))
 abs_errors
 ```
-
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    
-
-
-
 
     [7.640619528619529, 8.426383838383838]
 
@@ -711,21 +654,6 @@ abs_errors.append(rf_regression(X,y,2))
 abs_errors
 ```
 
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    
-
-
-
-
     [7.640619528619529, 8.426383838383838, 8.387892255892258]
 
 
@@ -743,21 +671,6 @@ y = features[["StateAnxiety"]]
 abs_errors.append(rf_regression(X,y,4))
 abs_errors
 ```
-
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    
-
-
-
 
     [7.640619528619529, 8.426383838383838, 8.387892255892258, 7.649562289562292]
 
@@ -798,261 +711,6 @@ for i in indexes:
     mean_error.append(rf_regression(X, y, i+1))
 mean_error
 ```
-
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3807870786.py:17: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      rf.fit(X_train, y_train)
-    
-
-
-
 
     [10.339589225589226,
      9.642060606060605,
@@ -1181,17 +839,6 @@ acc_score = sum(scores) / len(scores)
 acc_scores.append(acc_score) 
 ```
 
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    
 
 Model 2: mfcc_1 & RMSenergy & voiceProb as input features
 
@@ -1216,18 +863,6 @@ acc_score = sum(scores) / len(scores)
 acc_scores.append(acc_score) 
 ```
 
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    
-
 Model 3: pause_frequency & mfcc_12 as input features
 
 
@@ -1251,18 +886,6 @@ acc_score = sum(scores) / len(scores)
 acc_scores.append(acc_score) 
 ```
 
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    
-
 Model 4: mfcc_1 & RMSenergy & pause_frequency & mfcc_12 as input features
 
 
@@ -1285,19 +908,6 @@ scores = cross_val_score(rf, X, y, cv=kf)
 acc_score = sum(scores) / len(scores)
 acc_scores.append(acc_score) 
 ```
-
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    
-
 
 ```python
 # Plot the classification accuracy against the number of selected features
@@ -1340,270 +950,6 @@ for i in indexes:
         
 accuracy
 ```
-
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    
-
-
 
 
     [0.6181818181818182,
@@ -1683,19 +1029,6 @@ scores = cross_val_score(rf, X, y, cv=kf)
 acc_score = sum(scores) / len(scores)
 ```
 
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    C:\Users\MEI-KUEI LU\anaconda3\envs\test\lib\site-packages\sklearn\model_selection\_validation.py:686: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
-      estimator.fit(X_train, y_train, **fit_params)
-    
-
-
 ```python
 print(f"The Classification Accuracy is {acc_score}") 
 ```
@@ -1762,7 +1095,6 @@ print(f'Mean absolute error: {mae}')
     Mean absolute error: 10.014781144781146
     
 
-    C:\Users\MEI-KUEI LU\AppData\Local\Temp\ipykernel_2104\3258384678.py:25: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
       rf.fit(X_train_pca, y_train)
     
 
