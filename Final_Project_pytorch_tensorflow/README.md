@@ -414,19 +414,6 @@ test_data
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -659,11 +646,6 @@ for epoch in range(num_epochs):
 
 
 ```python
-
-```
-
-
-```python
 # Load the saved model
 model = TransformerModel(vocab_size=vocab_size, embed_dim=100, hidden_dim=100, num_layers=2, num_heads=4, dropout=0.1, output_dim=3)
 
@@ -739,34 +721,6 @@ print(text)
 print(label)
 ```
 
-
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    Cell In[192], line 3
-          1 for text, label in zip(x,y):
-          2     # preprocess the text and convert to tensor
-    ----> 3     text = TEXT.process([text]).to(device)
-          4     label = torch.tensor([label]).float().to(device)
-          5 print(text)
-    
-
-    File ~\anaconda3\envs\test\lib\site-packages\pandas\core\generic.py:5902, in NDFrame.__getattr__(self, name)
-       5895 if (
-       5896     name not in self._internal_names_set
-       5897     and name not in self._metadata
-       5898     and name not in self._accessors
-       5899     and self._info_axis._can_hold_identifiers_and_holds_name(name)
-       5900 ):
-       5901     return self[name]
-    -> 5902 return object.__getattribute__(self, name)
-    
-
-    AttributeError: 'Series' object has no attribute 'process'
-
-
-
 ```python
 # Load the saved model
 #model = torch.load('best_model.pt')
@@ -783,33 +737,6 @@ print(f'Test Loss: {test_loss:.3f} | Test Acc: {test_acc*100:.2f}%')
 #print(f'Test Loss: {test_loss:.3f} | Test Acc: {test_acc*100:.2f}%')
 
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    Cell In[184], line 5
-          1 # Load the saved model
-          2 #model = torch.load('best_model.pt')
-          3 
-          4 # Evaluate the model on the test set
-    ----> 5 test_loss, test_acc = evaluate(model, test_loader, criterion)
-          7 # Print the test accuracy
-          8 print('Test Accuracy: {:.3f}'.format(test_acc))
-    
-
-    Cell In[152], line 12, in evaluate(model, iterator, criterion)
-         10 with torch.no_grad():
-         11     for batch in iterator:
-    ---> 12         text = batch.text
-         13         label = batch.label
-         15         predictions = model(text).squeeze(1)
-    
-
-    AttributeError: 'list' object has no attribute 'text'
-
-
 
 ```python
 # Loop over the batches in the train loader
@@ -840,34 +767,4 @@ print(f'Test Loss: {test_loss:.3f} | Test Acc: {test_acc*100:.2f}%')
  
     train_losses.append(total_loss)
     train_accs.append(train_acc)
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
 ```
